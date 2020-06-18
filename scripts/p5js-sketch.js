@@ -45,11 +45,11 @@ function preload() {
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(0);
+  background(255);
 }
 function draw() {
 
-  background(0);
+  background(255);
   //image(cr0, -70, 80, windowWidth, windowWidth/16*9);
   if(windowWidth <= 768){
     scale(0.5, 0.5);
